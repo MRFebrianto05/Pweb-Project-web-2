@@ -1,0 +1,107 @@
+root {
+    --c1 { color: #000b58}
+    --c2 { color: #003161}
+    --c3 { color: #006a67}
+    --c4 { color: #fff4b7}
+}
+
+/* CSS untuk Register Admin */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.4);
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+form button:active {
+    transform: translateY(0);
+}
+
+form p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+form p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    form input {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
